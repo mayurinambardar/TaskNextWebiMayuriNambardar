@@ -4,8 +4,864 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Next-Webi Task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+     <section class="hero-section section1">
+  
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 w-100 p-3">
+    <div class="container-fluid">
+
+      <!-- Left: Logo -->
+      <a class="navbar-brand me-auto" href="#">
+        <img class="img-fluid" src="images/section1/websitelogo.svg" alt="Website Logo" style="height: 40px;">
+      </a>
+
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Center: Menu -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav ">
+          <!-- Company -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="companyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="companyDropdown">
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Team</a></li>
+              <li><a class="dropdown-item" href="#">Careers</a></li>
+            </ul>
+          </li>
+
+          <!-- Services -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Mobile Apps</a></li>
+            </ul>
+          </li>
+
+          <!-- Hire Developers -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="hireDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Hire Developers
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="hireDropdown">
+              <li><a class="dropdown-item" href="#">Hire React Developer</a></li>
+              <li><a class="dropdown-item" href="#">Hire Angular Developer</a></li>
+            </ul>
+          </li>
+
+          <!-- Solutions -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Solutions
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
+              <li><a class="dropdown-item" href="#">Solution 1</a></li>
+              <li><a class="dropdown-item" href="#">Solution 2</a></li>
+            </ul>
+          </li>
+
+          <!-- Technologies -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="techDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Technologies
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="techDropdown">
+              <li><a class="dropdown-item" href="#">Tech 1</a></li>
+              <li><a class="dropdown-item" href="#">Tech 2</a></li>
+            </ul>
+          </li>
+
+          <!-- Our Work -->
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Our Work</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Right: Contact Button -->
+      <div class="d-none d-lg-block ms-auto">
+        <a href="#" class="btn btn-danger">Contact</a>
+      </div>
+    </div>
+  </nav>
+ <div class="position-absolute top-50 start-50 translate-middle text-center text-white" style="max-width: 700px;">
+  <div id="heroTextCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <h1 class="fw-bold" style="font-size: clamp(1.8rem, 5vw, 3.5rem); line-height: 1.2;">
+          Offshore Software Development Company in New York
+        </h1>
+        <p class="lead" style="font-size: clamp(1rem, 2.5vw, 1.25rem); line-height: 1.5;">
+          At Nextwebi, we provide agile result-oriented offshore software development services for companies ranging from startups to enterprises to help you keep up with constant technological evolution. We deploy a team of expert developers
+        </p>
+        <div class="mt-3">
+          <button class="btn btn-primary m-2">Get in Touch</button>
+          <button class="btn btn-outline-light">Our Works</button>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <h1 class="fw-bold" style="font-size: clamp(1.8rem, 5vw, 3.5rem); line-height: 1.2;">
+          Delivering Excellence Across the Globe
+        </h1>
+        <p class="lead" style="font-size: clamp(1rem, 2.5vw, 1.25rem); line-height: 1.5;">
+          At Nextwebi, we provide agile result-oriented offshore software development services for companies ranging from startups to enterprises to help you keep up with constant technological evolution. We deploy a team of expert developers
+        </p>
+        <button class="btn btn-primary m-2">Get in Touch</button>
+        <button class="btn btn-outline-light">Our Works</button>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <h1 class="fw-bold" style="font-size: clamp(1.8rem, 5vw, 3.5rem); line-height: 1.2;">
+          Trusted by Clients Worldwide
+        </h1>
+        <p class="lead" style="font-size: clamp(1rem, 2.5vw, 1.25rem); line-height: 1.5;">
+          Delivering excellence in every project we take on.
+        </p>
+        <button class="btn btn-primary m-2">Get in Touch</button>
+        <button class="btn btn-outline-light">Our Works</button>
+      </div>
+
+    </div>
+
+    <!-- Controls for text carousel -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroTextCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroTextCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+</section>
+    <!-- section 2 -->
+       <section class="container my-4">
+        <div class="row mx-4">
+          <div class="col-md-6  p-3  text-white">
+            <h3>Output-Driven Offshore Software Development Centre</h3>
+            <p>Offshore development services refers to the practice of hiring a remote team or a software development
+              compan</p>
+            <br>
+            <p>Offshore development services refers to the practice of hiring a remote team or a software development
+              company in a different company to help reduce development costs Offshore development services refers to
+              the practice of hiring a remote team or a software development company Offshore development services
+              refers to the practice of hiring a remote team or a software development company in a different company to
+              help reduce development costs Offshore development services refers to the practice of hiring a remote team
+              or a software</p>
+            <br>
+            <p>development costs Offshore development services refers to the practice of hiring a remote team or a
+              software development company in a different company </p>
+          </div>
+          <div class="col-md-6  p-4 mx-auto mr-2">
+            <img src="images/section2/section2.png" alt="offshore-development-company image"
+              class="img-fluid" loading="lazy">
+          </div>
+        </div>
+      </section>
+      <!-- section 3 -->
+      <section class="container m-6 text-white section3">
+      <img src="images/section3/Group 210.svg" alt="Top Right Image" class="section3ImageTop">
+      <img src="images/section3/Group 210 (2).svg" alt="Top Right Image" class="section3ImageBottom">
+
+      
+
+      <div class="container my-4 ">
+        
+        <div class="row g-3">
+          <h4>Output-Driven Offshore Software Development Centre</h4>
+      <p>
+        Offshore development services refers to the practice of hiring a remote
+        team or a software development company in a different company to help
+        reduce development costs
+      </p>
+          <!-- Repeated Card Block -->
+          <div class="col-md-4 d-flex">
+            <div
+              class="shadow-lg p-3 textbackground h-100 d-flex flex-column section3backgroundColor"
+            >
+              <h5>Offshore software development consulting</h5>
+              <p>
+                Customized offshore software development consulting service to
+                help you enhance your digital landscape with the latest
+                technology. Our team of expert offshore software developers will
+                help you integrate the latest technologies with a strategized
+                roadmap and plan.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex">
+            <div
+              class="shadow-lg p-3 textbackground  h-100 d-flex flex-column section3backgroundColor"
+            >
+              <h5>Digital Transformation</h5>
+              <p>
+                Transform your digital landscape with our professional digital
+                transformation services which strategically uses digital
+                technologies to radically improve or reinvent a company’s
+                business processes, customer experiences, and culture.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex">
+            <div
+              class="shadow-lg p-3 textbackground  h-100 d-flex flex-column section3backgroundColor"
+            >
+              <h5>Web Development</h5>
+              <p>
+                Enhance your business agility with web application development
+                solutions delivering an intuitive digital experience. Our team
+                has significant experience in handling multiple types of
+                offshore custom software development projects that will help you
+                transform your digital landscape and augment sales.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex">
+            <div
+              class="shadow-lg p-3 textbackground  h-100 d-flex flex-column section3backgroundColor"
+            >
+              <h5>Offshore software development consulting</h5>
+              <p>
+                Customized offshore software development consulting service to
+                help you enhance your digital landscape with the latest
+                technology. Our team of expert offshore software developers will
+                help you integrate the latest technologies with a strategized
+                roadmap and plan.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex">
+            <div
+              class="shadow-lg p-3 textbackground  h-100 d-flex flex-column section3backgroundColor"
+            >
+              <h5>Digital Transformation</h5>
+              <p>
+                Transform your digital landscape with our professional digital
+                transformation services which strategically uses digital
+                technologies to radically improve or reinvent a company’s
+                business processes, customer experiences, and culture.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex">
+            <div
+              class=" p-3 textbackground h-100 d-flex flex-column section3backgroundColor"
+            >
+              <h5>Web Development</h5>
+              <p>
+                Enhance your business agility with web application development
+                solutions delivering an intuitive digital experience. Our team
+                has significant experience in handling multiple types of
+                offshore custom software development projects that will help you
+                transform your digital landscape and augment sales.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 4 -->
+    <section class="container-fluid p-3 text-white">
+  <img src="images/section4/section4.svg" alt="Comapny Info Image" class="img-fluid my-3">
+ </section>
+ <!-- section 5 -->
+  <section class="container p-4 section5 text-white">
+  <h4 class="mt-2">Where great ideas became real results</h4>
+  <p class="my-4">
+    Offshore development services refers to the practice of hiring a remote
+    team or a software development company in a different company to help
+    reduce development costs
+  </p>
+
+  <div class="row rounded-4 m-4 p-4 " style="background-color: #ffffff;">
+    <div id="carouselExample" class="carousel slide bg-secondary bg-opacity-10 rounded-3" >
+      <div class="carousel-inner  text-black">
+
+        <!-- First Slide -->
+        <div class="carousel-item active">
+          <div class="row align-items-center ">
+            <div class="col-md-6">
+              <h4>Web application development for a real estate company in Dubai</h4>
+              <p>
+                Our client, a real estate agency based in Dubai, recognized
+                the growing demand for a streamlined platform that would
+                facilitate the process of buying and renting properties in
+                Dubai.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="images/section5/Subtract.png" class="img-fluid " alt="...">
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Slide -->
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h4>Web application development for a real estate company in Dubai</h4>
+              <p>
+                Our client, a real estate agency based in Dubai, recognized
+                the growing demand for a streamlined platform that would
+                facilitate the process of buying and renting properties in
+                Dubai.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="images/section5/Subtract.png" class="img-fluid" alt="...">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
+</section>
+<!-- section 6 -->
+ <section class="container p-4 text-white text-center justify-content-center">
+      <p>Trusted by 100+ Clients Globally</p>
+      <img src="images/section6/Logos.svg" alt="logos" class="img-fluid" />
+    </section>
+    <!-- sticky -->
+      <div>
+    <!-- section 7 -->
+     <section class="container p-4 text-white stickySections">
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h4>
+            Offshore Dedicated Development Team for Your Project Requirements
+          </h4>
+          <p>
+            Nextwebi is a leading offshore software development company we save
+            you from hiring hassle and deploy a team of dedicated
+          </p>
+          <div
+            class="card bg-secondary bg-opacity-10 text-white"
+            style="width: 18rem"
+          >
+            <img
+              src="images/section7/image18.svg"
+              class="card-img-top section7logo"
+              alt="icon"
+            />
+            <div class="card-body vectorImage">
+              <p class="card-text">
+                Let's begin with a no-obligation conversations.
+              </p>
+              <a href="#" class="btn btn-primary">Request a quote</a>
+              <img class="vectorLogo" src="images/section7/Vector(1).svg" alt="vector" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!-- accordion -->
+
+          <div class="accordion " id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  Offshore software development team deployment
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+              >
+                <div class="accordion-body">
+                  <p>
+                    At Nextwebi, offshore software development firm we entail
+                    deploying a team at a different location to help you meet
+                    your technological requirements. The software industry is
+                    ramping up at a faster pace across the globe creating fierce
+                    competition and increasing the cost of running the business.
+                    Inevitably, Onsite-Offshore Software Development emerged as
+                    a solution for many businesses looking to build custom
+                    services to tackle the problems arising timely.
+                  </p>
+                  Enhanced business process quality Flexible and scalable
+                  technological solutions Technically proficient team of
+                  offshore software developers On-time project delivery with
+                  high-security standards
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  Workflow post offshore software development team establishment
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse show"
+              >
+                <div class="accordion-body">
+                  Hire a dedicated offshore software development team with
+                  Nextwebi and expand your business outreach while cutting
+                  recruitment and infrastructure costs.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  Cost of offshore development services
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse show"
+              >
+                <div class="accordion-body">
+                  Estimating the cost of offshore development services can be a
+                  tricky process as it depends on various factors in domain
+                  knowledge, industry expertise, and project knowledge. The
+                  components that influence the cost of offshore development
+                  services include:
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 8 -->
+      <section class="container p-4 text-white  stickySections bg-dark">
+    <div class="row">
+      <h4>Frequently Asked Questions</h4>
+      <p>
+        We offer a range of pricing plans to fit every budget and level of need.
+        Whether you're a solo professional
+      </p>
+      
+        <!-- accordion -->
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <!-- one -->
+          <div class="accordion-item m-2 rounded">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                Is it possible to enable incoming email in a SharePoint Online
+                document library?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Is it possible to enable incoming email in a SharePoint Online
+                  document library?
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- two -->
+          <div class="accordion-item m-2 rounded">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                Where can I get more details about your offshore development
+                services?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>
+                  Where can I get more details about your offshore development
+                  services?
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- three -->
+          <div class="accordion-item m-2 rounded">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Can I change the developer?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>Can I change the developer?</p>
+              </div>
+            </div>
+          </div>
+          <!-- four -->
+          <div class="accordion-item m-2 rounded">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Can I change the developer?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>Can I change the developer?</p>
+              </div>
+            </div>
+          </div>
+          <!-- five -->
+          <!-- three -->
+          <div class="accordion-item m-2 rounded">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Can I change the developer?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body">
+                <p>Can I change the developer?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section -->
+     <section class="container p-5 text-white stickySections bg-dark">
+          <h4 class="mt-2">Where great ideas became real results</h4>
+          <p class="my-4">
+            Offshore development services refers to the practice of hiring a remote
+            team or a software development company in a different company to help
+            reduce development costs
+          </p>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner p-3">
+             
+              <div class="carousel-item active border p-3 text-center">
+                 <img src="images/section/quote.svg">
+                <p>
+                  I wanted to redesigning and revamp the website of my institution.
+                  I contacted Nextwebi and they understood the vision of an
+                  organization and through several discussions and timely
+                  suggestions, the website was delivered and deployed successfully.
+                  Nextwebi, Without a doubt they have what it takes to make a great
+                  web application, not to mention with a competitive price too. Now
+                  on seeing the end product I am satisfied and know that the web app
+                  is in safe hands. Thank you to the entire team.
+                </p>
+                <hr />
+                <img src="images/section/Sub Container (3).svg" alt="sub-container" class="img-fluid" loading="lazy" />
+              </div>
+              <div class="carousel-item border p-3 text-center">
+                <p>
+                  I wanted to redesigning and revamp the website of my institution.
+                  I contacted Nextwebi and they understood the vision of an
+                  organization and through several discussions and timely
+                  suggestions, the website was delivered and deployed successfully.
+                  Nextwebi, Without a doubt they have what it takes to make a great
+                  web application, not to mention with a competitive price too. Now
+                  on seeing the end product I am satisfied and know that the web app
+                  is in safe hands. Thank you to the entire team.
+                </p>
+                <hr />
+                <img src="images/section8/Sub Container (3).svg" alt="sub-container" class="img-fluid" loading="lazy" />
+              </div>
+              <div class="carousel-item border p-3 text-center">
+                <p>
+                  I wanted to redesigning and revamp the website of my institution.
+                  I contacted Nextwebi and they understood the vision of an
+                  organization and through several discussions and timely
+                  suggestions, the website was delivered and deployed successfully.
+                  Nextwebi, Without a doubt they have what it takes to make a great
+                  web application, not to mention with a competitive price too. Now
+                  on seeing the end product I am satisfied and know that the web app
+                  is in safe hands. Thank you to the entire team.
+                </p>
+                <hr />
+                <img src="images/section8/Sub Container (3).svg" alt="sub-container" class="img-fluid" loading="lazy" />
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+    <!-- section 9 -->
+     <section class="container p-5 text-white bg-dark stickySections">
+      <h4>Absolutely, We have thoroughly mastered the technologies you prefer.
+</h4>
+<p>Our exceptionally skilled IT specialists are proficient in both classic and modern programming languages, as well as frameworks. We aim for excellence, choosing only the top-tier candidates when selecting our IT specialists.</p>
+<div class="row">
+    <!-- Left Column -->
+    <div class="col-md-6">
+      <div class="mb-3 p-3 ">Frontend Programming
+Languages</div>
+<hr>
+      <div class="mb-3 p-3 ">Backend Programming
+Languages</div>
+<hr>
+      <div class="mb-3 p-3">Mobile</div><hr>
+      <div class="mb-3 p-3">Big Data</div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-md-6">
+  <div class="row">
+    <div class="col-6 mb-3">
+      <div class="p-3 bg-secondary text-white bg-opacity-10 d-flex align-items-center justify-content-center" style="min-height: 100px;">
+        <span><img src="images/section9/html5.svg" alt="html logo" class="me-2">HTML5</span>
+      </div>
+    </div>
+    <div class="col-6 mb-3">
+      <div class="p-3 bg-secondary text-white bg-opacity-10 d-flex align-items-center justify-content-center" style="min-height: 100px;">
+        <span><img src="images/section9/css3.svg" alt="css logo" class="me-2">CSS</span>
+      </div>
+    </div>
+    <div class="col-6 mb-3">
+      <div class="p-3 bg-secondary text-white bg-opacity-10 d-flex align-items-center justify-content-center" style="min-height: 100px;">
+        <span><img src="images/section9/Vue.svg" alt="vue logo" class="me-2">VEU</span>
+      </div>
+    </div>
+    <div class="col-6 mb-3">
+      <div class="p-3 bg-secondary text-white bg-opacity-10 d-flex align-items-center justify-content-center" style="min-height: 100px;">
+        <span><img src="images/section9/AngularJS.svg" alt="Angular logo" class="me-2">Angular</span>
+      </div>
+    </div>
+    <div class="col-6 mb-3">
+      <div class="p-3 bg-secondary text-white bg-opacity-10 d-flex align-items-center justify-content-center" style="min-height: 100px;">
+        <span><img src="images/section9/javascript.svg" alt="Javascript logo" class="me-2">Javascript</span>
+      </div>
+    </div>
+    <div class="col-6 mb-3">
+      <div class="p-3 bg-secondary text-white bg-opacity-10 d-flex align-items-center justify-content-center" style="min-height: 100px;">
+        <span><img src="images/section9/React.svg" alt="React logo" class="me-2">React</span>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- section 10 -->
+  <section class="container p-5 text-white bg-dark stickySections">
+  <h2 class="mb-4">Related Blogs</h2>
+  <div class="row g-4 ">
     
+    <!-- Column 1 -->
+    <div class="col-md-4 shadow-lg">
+      <div class="card h-100 text-dark">
+        <img src="images/section11/Sub Container.svg
+        " class="card-img-top" alt="AI in Healthcare">
+        <div class="card-body">
+          <h5 class="card-title">AI in Healthcare</h5>
+          <p class="card-text">Dr. Lisa Adams discusses how AI is revolutionizing healthcare, from diagnostic tools to patient care.</p>
+          <a class="text-decoration-none" href="#">Read more<span><img src="images/section11/Icon.svg" alt=""></span></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="col-md-4 shadow-lg">
+      <div class="card h-100 text-dark">
+        <img src="images/section11/Sub Container (1).svg" class="card-img-top" alt="AI Ethics">
+        <div class="card-body">
+          <h5 class="card-title">AI Ethics</h5>
+          <p class="card-text">Explore the ethical dilemmas and considerations surrounding AI with guest speaker Dr. Michael Turner.</p>
+          <a class="text-decoration-none" href="#">Read more<span><img src="images/section11/Icon.svg" alt=""></span></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="col-md-4 shadow-lg">
+      <div class="card h-100 text-dark">
+        <img src="images/section11/Sub Container (2).svg" class="card-img-top" alt="Machine Learning Explained">
+        <div class="card-body">
+          <h5 class="card-title">Machine Learning Explained</h5>
+          <p class="card-text">Dive into the intricacies of machine learning with AI expert Sarah Davis. In this episode.</p>
+         <a class="text-decoration-none" href="#">Read more<span><img src="images/section11/Icon.svg" alt=""></span></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- section 12 -->
+<div class="container col-12 mb-3 p-5 text-white section12Background stickySections bg-dark">
+          <div class="row">
+            <div class="col-md-6  p-2">
+              <p>Get in Touch</p>
+              <h4>Connect for Excellence Your Gateway to Exceptional Solutions.</h4>
+              <div class="col-md-6 mb-4">
+                <div class="p-4">
+                  <img src="images/section12/india.svg" alt="indian flag" loading="lazy">
+                  <p>India</p>
+                  <p>4th Floor, 32/1, Mpark, NCPR Industrial Layout, Doddanekundi Industrial Area 2, Seetharampalya,
+                    Mahadevapura, Bengaluru, Karnataka 560048.</p>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="p-4 ">
+                  <img src="images/section12/usa.svg" alt="USA flag" loading="lazy">
+                  <p>USA</p>
+                  <p>188 Spear st #350,
+                    San Francisco, CA 94105
+                    United States</p>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="p-4">
+                  <img src="images/section12/uae.svg" alt="UAE flag" loading="lazy">
+                  <p>UAE</p>
+                  <p>Office No.2042, ABN Group,
+                    20th Floor, Burjuman Business Tower,
+                    Al Mankhool, Burdubai Dubai.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6  text-white  ">
+              <div class="container my-5 border rounded">
+                <h4 class="mb-4">Your Vision, Our Mission: Let' Shape Success Together</h4>
+                <form>
+                  <div class="mb-3">
+                    <input placeholder="Name" type="txet" class="form-control" id="userInput"
+                      aria-describedby="emailHelp">
+                  </div>
+
+                  <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Company Name">
+                  </div>
+
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email Address">
+                  </div>
+                  <div class="mb-3">
+                    <input type="number" class="form-control" placeholder="Contact Number">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Click here to quickly get portfolio in your
+                      inbox</label>
+                  </div>
+                  <input type="input" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">5+3</label>
+                  <button type="submit" class="btn btn-primary">Request Proposal</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

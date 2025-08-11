@@ -1,0 +1,96 @@
+body{
+    background-color: #000000;
+    font-family: 'Lato', sans-serif;
+}
+/* section 1 */
+.section1{
+    height: 100vh;
+  background: url("../images/section1/HeroSection.webp") no-repeat center
+    center/cover;
+  position: relative;
+  color: white;
+}
+/* section3 */
+.section3 {
+  position: relative;
+}
+.section3 .section3ImageTop {
+  position: absolute;
+  top: 0;
+  right: 0; /* optional: control size */
+  height: auto;
+  z-index: -1;
+}
+.section3 .section3ImageBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  z-index: -1;
+}
+ .section3backgroundColor{
+    background-color: #1b1b1b;
+ }
+ /* section 5 */
+ .carousel-control-prev {
+  left: -150px; /* move further left */
+}
+
+.carousel-control-next {
+  right: -150px; /* move further right */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: blue; /* your blue shade */
+  border-radius: 50%;     /* make it circular */
+  padding: 20px;          /* bigger clickable area */
+  background-size: 50%, 50%; /* arrow size */
+}
+ /* section 7 */
+ .section7logo {
+  max-width: 2rem;
+}
+.vectorImage {
+  position: relative;
+}
+.vectorLogo {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  max-width: 1rem;
+}
+/* accordion */
+/* accordion-custom.css */
+
+/* Accordion header button */
+.accordion-button {
+  background-color: #1b1b1b; /* Dark background */
+  color: white; /* White text */
+}
+
+/* Open state (active) */
+.accordion-button:not(.collapsed) {
+  background-color: #333; /* Slightly lighter when open */
+  color: white;
+  box-shadow: none; /* Remove Bootstrap's default shadow */
+}
+
+/* Accordion body content */
+.accordion-body {
+  background-color: #1b1b1b; /* Light body background */
+  color: #fff; /* Black text */
+}
+
+/* Remove borders around accordion items */
+.accordion-item {
+  border: none;
+}
+/* section12 */
+.section12Background{
+  background-image: url(../images/section12/section12background.svg);
+}
+/* sticky sections */
+.stickySections{
+  position:sticky;
+  top:0
+}
